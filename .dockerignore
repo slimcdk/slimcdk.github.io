@@ -1,0 +1,9 @@
+.vscode/
+.devcontainer/
+.github/
+
+**/*.env
+.md
+secrets.yaml
+
+**/pb_data/
