@@ -1,5 +1,3 @@
 export interface ProjectCard {
-
-    _picture_url: string
-
+  _picture_url: string;
 }

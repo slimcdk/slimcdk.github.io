@@ -7,34 +7,40 @@ import { WifiStepperProjectComponent } from './pages/projects-page/projects/wifi
 import { ElectricHpiBajaProjectComponent } from './pages/projects-page/projects/electric-hpi-baja-project/electric-hpi-baja-project.component';
 
 export const routes: Routes = [
-    {
-        path: '', title: 'Christian Skjerning',
-        component: LandingPageComponent,
-        data: { page: { header: "Velkommen" } },
-    },
-    {
-        path: 'about', title: 'Om',
-        component: AboutPageComponent,
-        data: { page: { header: "Christian Skjerning" } },
-    },
-    {
-        path: 'projects', title: 'Projekter',
-        component: ProjectsPageComponent,
-        data: { page: { header: "Projekter" } },
-    },
-    {
-        path: 'project/google-pixel-tablet', title: 'Google Pixel Tablet',
-        component: GooglePixelMountProjectComponent,
-        data: { page: { header: "Google Piexel Tablet" } },
-    },
-    {
-        path: 'project/wifi-stepper', title: 'WiFi Stepper',
-        component: WifiStepperProjectComponent,
-        data: { page: { header: "WiFi Stepper" } },
-    },
-    {
-        path: 'project/electric-hpi-baja', title: 'Electric HPI Baja',
-        component: ElectricHpiBajaProjectComponent,
-        data: { page: { header: "Electic HPI Baja" } },
-    },
+  {
+    path: '',
+    title: 'Christian Skjerning',
+    component: LandingPageComponent,
+    data: { page: { header: 'Velkommen' } },
+  },
+  {
+    path: 'about',
+    title: 'Om',
+    component: AboutPageComponent,
+    data: { page: { header: 'Christian Skjerning' } },
+  },
+  {
+    path: 'projects',
+    title: 'Projekter',
+    component: ProjectsPageComponent,
+    data: { page: { header: 'Projekter' } },
+  },
+  {
+    path: 'project/google-pixel-tablet',
+    title: 'Google Pixel Tablet',
+    component: GooglePixelMountProjectComponent,
+    data: { page: { header: 'Google Piexel Tablet' } },
+  },
+  {
+    path: 'project/wifi-stepper',
+    title: 'WiFi Stepper',
+    component: WifiStepperProjectComponent,
+    data: { page: { header: 'WiFi Stepper' } },
+  },
+  {
+    path: 'project/electric-hpi-baja',
+    title: 'Electric HPI Baja',
+    component: ElectricHpiBajaProjectComponent,
+    data: { page: { header: 'Electic HPI Baja' } },
+  },
 ];

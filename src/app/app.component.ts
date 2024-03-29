@@ -1,10 +1,13 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject } from '@angular/core';
-import { Router, RouterOutlet, RouterModule, ActivatedRoute } from '@angular/router';
-
+import { Component, OnInit, inject } from '@angular/core';
+import {
+  Router,
+  RouterOutlet,
+  RouterModule,
+  ActivatedRoute,
+} from '@angular/router';
 
 import { initFlowbite } from 'flowbite';
-
 
 @Component({
   selector: 'app-root',
@@ -13,11 +16,9 @@ import { initFlowbite } from 'flowbite';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
-export class AppComponent {
-
+export class AppComponent implements OnInit {
   router = inject(Router);
-  route = inject(ActivatedRoute)
-
+  route = inject(ActivatedRoute);
 
   ngOnInit(): void {
     initFlowbite();

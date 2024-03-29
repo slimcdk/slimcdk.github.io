@@ -8,10 +8,9 @@ describe('GooglePixelMountProjectComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GooglePixelMountProjectComponent]
-    })
-    .compileComponents();
-    
+      imports: [GooglePixelMountProjectComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(GooglePixelMountProjectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

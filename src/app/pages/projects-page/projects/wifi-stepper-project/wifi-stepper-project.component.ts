@@ -6,10 +6,8 @@ import { ProjectCard } from '../../project-card';
   standalone: true,
   imports: [],
   templateUrl: './wifi-stepper-project.component.html',
-  styleUrl: './wifi-stepper-project.component.css'
+  styleUrl: './wifi-stepper-project.component.css',
 })
 export class WifiStepperProjectComponent implements ProjectCard {
-
-  _picture_url: string = ""
-
+  _picture_url: string = '';
 }

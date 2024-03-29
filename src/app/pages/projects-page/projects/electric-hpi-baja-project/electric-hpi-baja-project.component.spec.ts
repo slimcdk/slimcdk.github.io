@@ -8,10 +8,9 @@ describe('ElectricHpiBajaProjectComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ElectricHpiBajaProjectComponent]
-    })
-    .compileComponents();
-    
+      imports: [ElectricHpiBajaProjectComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(ElectricHpiBajaProjectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

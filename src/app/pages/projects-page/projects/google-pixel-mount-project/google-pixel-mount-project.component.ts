@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './google-pixel-mount-project.component.html',
-  styleUrl: './google-pixel-mount-project.component.css'
+  styleUrl: './google-pixel-mount-project.component.css',
 })
-export class GooglePixelMountProjectComponent {
-
-}
+export class GooglePixelMountProjectComponent {}

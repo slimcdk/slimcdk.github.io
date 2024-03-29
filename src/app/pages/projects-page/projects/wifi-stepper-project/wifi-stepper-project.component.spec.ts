@@ -8,10 +8,9 @@ describe('WifiStepperProjectComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WifiStepperProjectComponent]
-    })
-    .compileComponents();
-    
+      imports: [WifiStepperProjectComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(WifiStepperProjectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
