@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ProjectCard } from '../../project-card';
 
+
 @Component({
   selector: 'app-wifi-stepper-project',
   standalone: true,
@@ -9,5 +10,8 @@ import { ProjectCard } from '../../project-card';
   styleUrl: './wifi-stepper-project.component.css',
 })
 export class WifiStepperProjectComponent implements ProjectCard {
-  _picture_url: string = '';
+  public desc_route: string = "/project/wifi-stepper";
+  public desc_title: string = "WiFi Stepper";
+  public desc_image: string = "";
+  public desc_date: Date = new Date();
 }

@@ -1,3 +1,7 @@
 export interface ProjectCard {
-  _picture_url: string;
+  desc_route: string;
+  desc_title: string;
+  desc_image: string;
+  desc_date: Date;
+
 }
