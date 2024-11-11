@@ -1,6 +1,6 @@
 {
   "name": "website development",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
   "onCreateCommand": "npm install -g npm",
   "postCreateCommand": "npm install",
   "features": {
@@ -11,13 +11,13 @@
     "ghcr.io/eliises/devcontainer-features/devcontainers-cli:1": {},
     "ghcr.io/devcontainers-contrib/features/act:1": {},
     "ghcr.io/devcontainers/features/go:1": {
-      "version": "1.22"
+      "version": "1.23"
     },
     "ghcr.io/devcontainers-contrib/features/angular-cli:2": {
-      "version": "17"
+      "version": "18"
     },
     "ghcr.io/devcontainers/features/node:1": {
-      "version": "20"
+      "version": "22"
     },
     "ghcr.io/devcontainers-contrib/features/typescript:2.0.15": {},
     "ghcr.io/r3dpoint/devcontainer-features/tailwindcss-standalone-cli:1": {}
