@@ -14,7 +14,7 @@
       "version": "1.23"
     },
     "ghcr.io/devcontainers-contrib/features/angular-cli:2": {
-      "version": "18"
+      "version": "19"
     },
     "ghcr.io/devcontainers/features/node:1": {
       "version": "22"
