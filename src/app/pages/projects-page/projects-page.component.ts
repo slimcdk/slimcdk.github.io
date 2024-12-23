@@ -13,11 +13,10 @@ const PROJECTS: ProjectCard[] = [
 ]
 
 @Component({
-  selector: 'app-projects-page',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
-  templateUrl: './projects-page.component.html',
-  styleUrl: './projects-page.component.css',
+    selector: 'app-projects-page',
+    imports: [CommonModule, RouterModule],
+    templateUrl: './projects-page.component.html',
+    styleUrl: './projects-page.component.css'
 })
 export class ProjectsPageComponent implements OnInit {
   readonly projects = PROJECTS;

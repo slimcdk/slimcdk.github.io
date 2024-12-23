@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 import { ProjectCard } from '../../project-card';
 
 @Component({
-  selector: 'app-electric-hpi-baja-project',
-  standalone: true,
-  imports: [],
-  templateUrl: './electric-hpi-baja-project.component.html',
-  styleUrl: './electric-hpi-baja-project.component.css',
+    selector: 'app-electric-hpi-baja-project',
+    imports: [],
+    templateUrl: './electric-hpi-baja-project.component.html',
+    styleUrl: './electric-hpi-baja-project.component.css'
 })
 export class ElectricHpiBajaProjectComponent implements ProjectCard {
   public desc_route: string = '/project/electric-hpi-baja';

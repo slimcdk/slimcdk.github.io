@@ -2,11 +2,10 @@ import { Component } from '@angular/core';
 import { ProjectCard } from '../../project-card';
 
 @Component({
-  selector: 'app-google-pixel-mount-project',
-  standalone: true,
-  imports: [],
-  templateUrl: './google-pixel-mount-project.component.html',
-  styleUrl: './google-pixel-mount-project.component.css',
+    selector: 'app-google-pixel-mount-project',
+    imports: [],
+    templateUrl: './google-pixel-mount-project.component.html',
+    styleUrl: './google-pixel-mount-project.component.css'
 })
 export class GooglePixelMountProjectComponent implements ProjectCard {
   public desc_route: string = "/project/google-pixel-tablet";
